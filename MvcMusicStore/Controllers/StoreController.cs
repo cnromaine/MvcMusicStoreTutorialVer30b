@@ -17,7 +17,7 @@ namespace MvcMusicStore.Controllers
             var genres = new List<Genre> 
             {
                 new Genre { Name = "Disco"},
-                new Genre { Name = "Jass"},
+                new Genre { Name = "Jazz"},
                 new Genre { Name = "Rock"}
             };
             return View(genres);
